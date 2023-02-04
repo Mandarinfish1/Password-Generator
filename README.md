@@ -53,9 +53,13 @@
 
 - In order to test the Password Generator, run the generator. If any errors occur, please check the console. It will tell you what errors are occuring.
 
-## Completed Project Link
+# Deployed Repository Link
 
--
+- https://mandarinfish1.github.io/Password-Generator/
+
+# Password Generator Repostory Link
+
+- https://github.com/Mandarinfish1/Password-Generator
 
 # Questions
 
