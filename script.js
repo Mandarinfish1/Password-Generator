@@ -28,7 +28,7 @@ var passwordLength = parseInt
   return;
 }
   
-//using confirm to confirm character types the user wants to include in the password. Using .push to push new characters into the end of a new array->(); Also using (...)spread. Can use concate.
+//using confirm to confirm character types the user wants to include in the password. Using .push to push new characters into the end of a new array->(); Also using (...)spread. Can use concate. Note: Spread syntax does not do a deep clone. Only 1 level deep. Not for large data.
 var useLower = confirm('Would you like to use Lowercase Characters in your password. \n Click OK!');
   if (useLower) {
       potentialChars.push(...lowerCase);
@@ -52,7 +52,7 @@ var useNumbers = confirm('Would you like to use Numbers in your password? \n Cli
   return;
 }
 
-//Loop 
+//Loop. There are other loop types.
 for (var i = 0; i < passwordLength; i++) {
 
 //Using Math.random()static method to get random number and Math.floor method to round number down to nearest the number.  
