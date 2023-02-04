@@ -59,7 +59,7 @@ for (var i = 0; i < passwordLength; i++) {
   var randomChars = potentialChars[Math.floor(Math.random()*potentialChars.length)];
   userInput.push(randomChars);
 }
-//Using the join() method  to create and return a new string by concatenating all of the elements in an array. Elements can be specified in how they are joined together using commas, no commas, etc.
+//Using the join() method  to create and return a new string by joining all of the elements in an array. Elements can be specified in how they are joined together using commas, no commas, etc.
 let password = userInput.join('');
 return  password;
 }
